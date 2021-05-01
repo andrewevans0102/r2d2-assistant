@@ -1,0 +1,15 @@
+service: r2d2-assistant
+
+frameworkVersion: ">=1.1.0 <=2.33.1"
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  greeting:
+    handler: handler.greeting
+    events:
+      - http:
+          path: greeting
+          method: post

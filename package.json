@@ -1,0 +1,19 @@
+{
+  "name": "r2d2-assistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "serverless deploy",
+    "remove": "serverless remove",
+    "environment": "python3 environment.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.897.0",
+    "qs": "^6.10.1",
+    "twilio": "^3.61.0"
+  }
+}
