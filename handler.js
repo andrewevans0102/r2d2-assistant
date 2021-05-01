@@ -18,7 +18,13 @@ const greeting = async (event, context, callback) => {
     console.log(JSON.stringify(body));
     console.log("greeting recieved with headers");
     console.log(JSON.stringify(headers));
+
     response = "Hello from your R2D2 assistant!";
+
+    const messageBody = body.Body.toUpperCase();
+    const messageFrom = body.From;
+
+    await sendMessage(response, messageFrom);
   } catch (error) {
     console.log(error);
   }
@@ -29,6 +35,15 @@ const greeting = async (event, context, callback) => {
   };
 };
 
+const sendMessage = async (message, toNumber) => {
+  await client.messages.create({
+    body: message,
+    from: TWILIO_ACCOUNT_PHONE_NUMBER,
+    to: toNumber,
+  });
+};
+
 module.exports = {
   greeting,
+  sendMessage,
 };
