@@ -1,5 +1,7 @@
 # R2D2 Assistant
 
+![R2D2](R2D2.gif)
+
 This is a companion project to my presentation at RVAJS on creating a JavaScript Virtual Assistant. You can get to the meetup invite link at https://www.meetup.com/rva-js/events/szjphrycchbgb/
 
 I also created a blog post on this, which I will share soon with a link.
