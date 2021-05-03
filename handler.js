@@ -21,6 +21,9 @@ const greeting = async (event, context, callback) => {
 
     response = "Hello from your R2D2 assistant!";
 
+    const messageBody = body.Body.toUpperCase();
+    const messageFrom = body.From;
+
     if (messageBody.includes("TODO")) {
       await processToDo(messageBody, messageFrom);
     } else {
