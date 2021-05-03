@@ -2,8 +2,6 @@
 
 ![R2D2](R2D2.gif)
 
-> [R2D2 image was originally copied from here](https://www.google.com/url?sa=i&url=http%3A%2F%2Fstayontheleader.blogspot.com%2F2018%2F07%2F12-mainly-star-wars-pictures-that.html&psig=AOvVaw1cQpKcLtzAdGLsDC2b0J1h&ust=1620159827269000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCODfpOqrrvACFQAAAAAdAAAAABAD)
-
 This is a companion project to my presentation at RVAJS on creating a JavaScript Virtual Assistant. You can get to the meetup invite link at https://www.meetup.com/rva-js/events/szjphrycchbgb/
 
 I also created a blog post on this, which I will share soon with a link.
